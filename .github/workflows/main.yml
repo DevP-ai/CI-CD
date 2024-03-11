@@ -16,9 +16,9 @@ jobs:
 
       - name: Upload html test report
         run: action/upload-artifact@v2
-        with:
-          name: lint.html
-          path : app/build/reports/lint-results-debug.html
+#        with:
+#          name: lint.html
+#          path : app/build/reports/lint-results-debug.html
 
       - name: Run a multi-line script
         run: |
