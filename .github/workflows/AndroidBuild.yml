@@ -22,7 +22,7 @@ jobs:
 #      - name: Build with Gradle
 #        run: ./gradlew build
 
-      - name: Build with Gradle
+      - name: setup-gradle
         uses: gradle/actions@v3.1.0
 
       - name: Upload a Build Artifact
