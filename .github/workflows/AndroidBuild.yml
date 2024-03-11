@@ -20,7 +20,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Setup Gradle
-        run: gradle/setup-gradle@v2.0.0
+        run: gradle/setup-gradle@latest
 
       - name: Build with Gradle
         run: ./gradlew build
